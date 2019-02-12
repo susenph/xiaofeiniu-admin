@@ -3,7 +3,27 @@
     <el-container>
       <!-- 左侧的菜单栏 -->
       <el-aside width="200px">
-        左侧边栏
+        <el-menu>
+          <el-menu-item index="1">
+            <i class="el-icon-setting"></i>
+            <span slot="title">全局设置</span>
+          </el-menu-item>
+          
+          <el-menu-item index="3">
+            <i class="el-icon-message"></i>
+            <span slot="title">菜品类别</span>
+          </el-menu-item>
+          
+          <el-menu-item index="5">
+            <i class="el-icon-setting"></i>
+            <span slot="title"></span>
+          </el-menu-item>
+
+          <el-menu-item index="6">
+            <i class="el-icon-setting"></i>
+            <span slot="title">全局设置</span>
+          </el-menu-item>
+        </el-menu>
       </el-aside>
       <el-container>
         <!-- 顶部的信息栏 -->
